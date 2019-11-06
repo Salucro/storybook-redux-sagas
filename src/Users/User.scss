@@ -1,0 +1,20 @@
+.UsersContainer {
+  padding: 2rem;
+
+  &__searchBar {
+    padding-bottom: 2rem;
+  }
+
+  input {
+    width: 100%;
+  }
+}
+
+.UserRow {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border: 1px solid lightgrey;
+  margin: 1rem;
+}
